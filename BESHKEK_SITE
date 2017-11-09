@@ -1,0 +1,72 @@
+<html class="fa-events-icons-ready"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/e2c39a3f30.js"></script><link rel="stylesheet" href="https://use.fontawesome.com/e2c39a3f30.css" media="all">
+	<link rel="stylesheet" type="text/css" href="file/css/home.css">
+    <link rel="stylesheet" href="file/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://file.myfontastic.com/eWT6DHqAn3BdQ3oTWZ397H/icons.css" rel="stylesheet">
+    <link rel="icon" href="file/img/favicon.ico">
+    
+    <title>BESHKEK</title>
+</head>
+
+<body oncontextmenu="return false">
+
+	<!--
+    	<video autoplay muted loop poster="file/img/background.png" id="bgvid">
+       	 	<source src="file/img/background.ogv" type="video/webm">
+   	</video>
+	-->
+
+    <div class="container main" style="margin-top: 15%; z-index: 2; text-align: center;">
+        <h1 class="text" style="text-align: center; vertical-align: middle; line-height=90px; font-weight: bold; font-size: 48px; z-index: 5;">Привет, я Никита</h1>
+        <span class="text" style="text-align: center; vertical-align: middle; line-height=90px; font-size: 32px; z-index: 5;" id="mmk">
+        <span class="text" id="mkk" style="text-align: center; vertical-align: middle; line-height=90px; font-size: 32px; z-index: 5;">Cкоро будет сервер по GMOD !!! </span><span class="typed-cursor">|</span><br>
+		
+		
+        <hr style="width: 50%; margin-top: 50px;">
+
+        <ul id="menu" style="font-size: 32px; z-index: 5; margin-top: 35px; list-style: none; margin-right:40px;">
+            <li><a href="http://steamcommunity.com/id/beshkek/"><i class="fa fa-steam fa-inverse" aria-hidden="true"></i></a></li>
+            <li><a href="https://vk.com/narkhipov0"><i class="fa fa-vk fa-inverse" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com/user/Lololowka03tw"><i class="fa fa-youtube-play fa-inverse" aria-hidden="true"></i></a></li>
+        </ul>
+    </span></div>
+
+    
+    
+	
+
+
+    
+	<script type="text/javascript">
+        
+            $("#mmk > #mkk").typed({
+                strings: ["Добро пожаловать на сайт ","Посетите мой VK ","Посетите мой YouTube ","Узнавай новости о сервере в моём VK ","Играй у меня на сервере "],
+                typeSpeed: 50,
+                backSpeed: 50,
+                backDelay: 1000,
+                loop: true,
+            });
+            
+            var arrowvisible = true;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 0) {
+                    if (arrowvisible) {
+                        arrowvisible = false;
+                        $("#arrow").addClass("invisible");
+                    }
+                } else if (!arrowvisible) {
+                    arrowvisible = true;
+                    $("#arrow").removeClass("invisible");
+                }
+            });
+            
+        </script>
+	
+
+
+
+</body></html>
